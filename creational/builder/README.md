@@ -207,7 +207,7 @@ public class PizzaTest {
 				.addTopping(Topping.ONION).build();
 
 		
-		Pizza calzone = new Calzone.Builder().addTopping(Topping.HAM).addTopping(Topping.PEPPER)
+		Pizza calzone = new Calzone.Builder.addTopping(Topping.HAM).addTopping(Topping.PEPPER)
 				.sauceInside().build();
 		
 		System.out.println(nyPizza);
