@@ -14,6 +14,7 @@
 
 + 새로운 결과물이 필요한 경우에도 동일한 과정으로 생성을 할 수 있음
 
+![image](https://github.com/kswdev/design-pattern/assets/92713670/75213f3f-5ca3-4196-ab7b-44c6b42749af)
 
 
 
@@ -23,6 +24,8 @@
 
 
 ## 3. Class diagram (GoF)
+![image](https://github.com/kswdev/design-pattern/assets/92713670/419c7c67-fe8d-47c8-aa23-5baaf8cb8a23)
+
 
 
 ## 4. 객체 협력 (collaborations)
