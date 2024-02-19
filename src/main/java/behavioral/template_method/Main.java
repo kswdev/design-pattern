@@ -1,5 +1,9 @@
 package behavioral.template_method;
 
+import behavioral.template_method.level.AdvancedLevel;
+import behavioral.template_method.level.PlayerLevel;
+import behavioral.template_method.level.SuperLevel;
+
 public class Main {
 
     public static void main(String[] args) {

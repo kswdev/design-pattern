@@ -4,20 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86e5f299-056e-4a11-83a8-fdfbae03c512" name="Changes" comment="추상 팩터리 메서드">
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/template_method/AdvancedLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/template_method/BeginnerLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/template_method/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/template_method/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/template_method/PlayerLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/template_method/SuperLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creation/builder/CalzonePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creation/builder/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creation/builder/NyPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creation/builder/Pizza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+    <list default="true" id="86e5f299-056e-4a11-83a8-fdfbae03c512" name="Changes" comment="템플릿 메소드 패턴">
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/factory_method/CarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/factory_method/factory/CarFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/factory_method/factory/HyundaiCarFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/factory_method/product/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/factory_method/product/Santafe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/factory_method/product/Sonata.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/behavioral/template_method/AdvancedLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behavioral/template_method/level/AdvancedLevel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/behavioral/template_method/BeginnerLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behavioral/template_method/level/BeginnerLevel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/behavioral/template_method/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behavioral/template_method/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/behavioral/template_method/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behavioral/template_method/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/behavioral/template_method/PlayerLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behavioral/template_method/level/PlayerLevel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/behavioral/template_method/SuperLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behavioral/template_method/level/SuperLevel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +87,20 @@
       <recent name="C:\Dev\intellij\study\design-pattern\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.CarTest">
+    <configuration name="CarTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioral.factory_method.CarTest" />
+      <module name="design-pattern.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="behavioral.factory_method.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConnectionPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="creation.singleton.ConnectionPool" />
       <module name="design-pattern.main" />
@@ -106,7 +119,7 @@
       <module name="design-pattern.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="behavioral.template_method.*" />
+          <option name="PATTERN" value="behavioral.template_method.level.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,6 +142,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CarTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.WebClient" />
         <item itemvalue="Application.ConnectionPool" />
@@ -145,7 +159,7 @@
       <updated>1708001333204</updated>
       <workItem from="1708001334509" duration="2177000" />
       <workItem from="1708228032929" duration="9879000" />
-      <workItem from="1708344552776" duration="538000" />
+      <workItem from="1708344552776" duration="2367000" />
     </task>
     <task id="LOCAL-00001" summary="초기화">
       <created>1708002302217</created>
@@ -168,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708249379120</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="템플릿 메소드 패턴">
+      <created>1708345539680</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708345539680</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +199,7 @@
     <MESSAGE value="초기화" />
     <MESSAGE value="싱글턴, 프로토타입" />
     <MESSAGE value="추상 팩터리 메서드" />
-    <option name="LAST_COMMIT_MESSAGE" value="추상 팩터리 메서드" />
+    <MESSAGE value="템플릿 메소드 패턴" />
+    <option name="LAST_COMMIT_MESSAGE" value="템플릿 메소드 패턴" />
   </component>
 </project>

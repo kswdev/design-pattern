@@ -1,4 +1,4 @@
-package behavioral.template_method;
+package behavioral.template_method.level;
 
 public class BeginnerLevel extends PlayerLevel{
     @Override

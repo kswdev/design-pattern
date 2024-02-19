@@ -1,5 +1,8 @@
 package behavioral.template_method;
 
+import behavioral.template_method.level.BeginnerLevel;
+import behavioral.template_method.level.PlayerLevel;
+
 public class Player {
     private PlayerLevel level;
 
