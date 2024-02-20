@@ -8,3 +8,6 @@
 
 
 [4. 빌더 패턴](https://github.com/kswdev/design-pattern/tree/master/creational/builder)
+
+
+[5. 팩토리 메서드 패턴](https://github.com/kswdev/design-pattern/tree/master/creational/factory-method)
