@@ -1,8 +1,8 @@
-package behavioral.factory_method.factory;
+package creation.factory_method.factory;
 
-import behavioral.factory_method.product.Car;
-import behavioral.factory_method.product.Santafe;
-import behavioral.factory_method.product.Sonata;
+import creation.factory_method.product.Car;
+import creation.factory_method.product.Santafe;
+import creation.factory_method.product.Sonata;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,8 +1,8 @@
-package behavioral.factory_method;
+package creation.factory_method;
 
-import behavioral.factory_method.factory.CarFactory;
-import behavioral.factory_method.factory.HyundaiCarFactory;
-import behavioral.factory_method.product.Car;
+import creation.factory_method.factory.CarFactory;
+import creation.factory_method.factory.HyundaiCarFactory;
+import creation.factory_method.product.Car;
 
 public class CarTest {
 

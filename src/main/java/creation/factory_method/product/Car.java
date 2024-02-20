@@ -1,4 +1,4 @@
-package behavioral.factory_method.product;
+package creation.factory_method.product;
 
 public abstract class Car {
 

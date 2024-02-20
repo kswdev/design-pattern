@@ -1,6 +1,6 @@
-package behavioral.factory_method.factory;
+package creation.factory_method.factory;
 
-import behavioral.factory_method.product.Car;
+import creation.factory_method.product.Car;
 
 public abstract class CarFactory {
     public abstract Car createCar(String name);

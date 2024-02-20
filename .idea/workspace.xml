@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86e5f299-056e-4a11-83a8-fdfbae03c512" name="Changes" comment="팩토리 메소드 패턴" />
+    <list default="true" id="86e5f299-056e-4a11-83a8-fdfbae03c512" name="Changes" comment="팩토리 메서드 삭제">
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/strategy/scheduler/LeastJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/strategy/scheduler/PriorityAllocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/strategy/scheduler/RoundRobin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/strategy/scheduler/Scheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/strategy/scheduler/SchedulerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/behavioral/factory_method/CarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation/factory_method/CarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/behavioral/factory_method/factory/CarFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation/factory_method/factory/CarFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/behavioral/factory_method/factory/HyundaiCarFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation/factory_method/factory/HyundaiCarFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/behavioral/factory_method/product/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation/factory_method/product/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/behavioral/factory_method/product/Santafe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation/factory_method/product/Santafe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/behavioral/factory_method/product/Sonata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation/factory_method/product/Sonata.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +85,7 @@
       <recent name="C:\Dev\intellij\study\design-pattern\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CarTest">
+  <component name="RunManager" selected="Application.SchedulerTest">
     <configuration name="CarTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="behavioral.factory_method.CarTest" />
       <module name="design-pattern.main" />
@@ -113,6 +125,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SchedulerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioral.strategy.scheduler.SchedulerTest" />
+      <module name="design-pattern.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="behavioral.strategy.scheduler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WebClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="creation.abstractFactory.main.WebClient" />
       <module name="design-pattern.main" />
@@ -128,6 +153,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SchedulerTest" />
         <item itemvalue="Application.CarTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.WebClient" />
@@ -146,6 +172,7 @@
       <workItem from="1708001334509" duration="2177000" />
       <workItem from="1708228032929" duration="9879000" />
       <workItem from="1708344552776" duration="3476000" />
+      <workItem from="1708427407733" duration="5480000" />
     </task>
     <task id="LOCAL-00001" summary="초기화">
       <created>1708002302217</created>
@@ -182,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708348516097</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="팩토리 메서드 삭제">
+      <created>1708427453562</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708427453562</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +228,7 @@
     <MESSAGE value="추상 팩터리 메서드" />
     <MESSAGE value="템플릿 메소드 패턴" />
     <MESSAGE value="팩토리 메소드 패턴" />
-    <option name="LAST_COMMIT_MESSAGE" value="팩토리 메소드 패턴" />
+    <MESSAGE value="팩토리 메서드 삭제" />
+    <option name="LAST_COMMIT_MESSAGE" value="팩토리 메서드 삭제" />
   </component>
 </project>
