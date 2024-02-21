@@ -4,18 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86e5f299-056e-4a11-83a8-fdfbae03c512" name="Changes" comment="팩토리 메서드 삭제">
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/strategy/scheduler/LeastJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/strategy/scheduler/PriorityAllocation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/strategy/scheduler/RoundRobin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/strategy/scheduler/Scheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/strategy/scheduler/SchedulerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/behavioral/factory_method/CarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation/factory_method/CarTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/behavioral/factory_method/factory/CarFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation/factory_method/factory/CarFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/behavioral/factory_method/factory/HyundaiCarFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation/factory_method/factory/HyundaiCarFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/behavioral/factory_method/product/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation/factory_method/product/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/behavioral/factory_method/product/Santafe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation/factory_method/product/Santafe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/behavioral/factory_method/product/Sonata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creation/factory_method/product/Sonata.java" afterDir="false" />
+    <list default="true" id="86e5f299-056e-4a11-83a8-fdfbae03c512" name="Changes" comment="스트래터지 패턴">
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/impl/AbstractList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/impl/ArrayImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/impl/LinkedListImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/list/List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/list/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/list/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/test/BridgeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +30,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -63,35 +63,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Dev/intellij&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "C:/Dev/intellij",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Dev\intellij\study\design-pattern\src\main\java\creation\abstractFactory" />
       <recent name="C:\Dev\intellij\study\design-pattern\src" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="structural.bridge.list" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.SchedulerTest">
-    <configuration name="CarTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="behavioral.factory_method.CarTest" />
+  <component name="RunManager" selected="Application.BridgeTest">
+    <configuration name="BridgeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structural.bridge.test.BridgeTest" />
       <module name="design-pattern.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="behavioral.factory_method.*" />
+          <option name="PATTERN" value="structural.bridge.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConnectionPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="creation.singleton.ConnectionPool" />
+    <configuration name="CarTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioral.factory_method.CarTest" />
       <module name="design-pattern.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="creation.singleton.*" />
+          <option name="PATTERN" value="behavioral.factory_method.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BridgeTest" />
         <item itemvalue="Application.SchedulerTest" />
         <item itemvalue="Application.CarTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.WebClient" />
-        <item itemvalue="Application.ConnectionPool" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +180,8 @@
       <workItem from="1708001334509" duration="2177000" />
       <workItem from="1708228032929" duration="9879000" />
       <workItem from="1708344552776" duration="3476000" />
-      <workItem from="1708427407733" duration="5480000" />
+      <workItem from="1708427407733" duration="6266000" />
+      <workItem from="1708511700844" duration="5133000" />
     </task>
     <task id="LOCAL-00001" summary="초기화">
       <created>1708002302217</created>
@@ -216,11 +225,29 @@
       <option name="project" value="LOCAL" />
       <updated>1708427453562</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="스트래터지 패턴">
+      <created>1708437190791</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1708437190791</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="초기화" />
@@ -229,6 +256,7 @@
     <MESSAGE value="템플릿 메소드 패턴" />
     <MESSAGE value="팩토리 메소드 패턴" />
     <MESSAGE value="팩토리 메서드 삭제" />
-    <option name="LAST_COMMIT_MESSAGE" value="팩토리 메서드 삭제" />
+    <MESSAGE value="스트래터지 패턴" />
+    <option name="LAST_COMMIT_MESSAGE" value="스트래터지 패턴" />
   </component>
 </project>
