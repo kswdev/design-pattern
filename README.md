@@ -3,3 +3,6 @@
 
 
 [2. 행위 패턴](https://github.com/kswdev/design-pattern/tree/master/Behavioral)
+
+
+[3. 구조 패턴](https://github.com/kswdev/design-pattern/tree/master/structural)
