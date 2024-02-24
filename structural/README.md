@@ -5,3 +5,6 @@
 
 
 [3. 컴포지트 패턴](https://github.com/kswdev/design-pattern/tree/master/structural/composite)
+
+
+[4. 어댑터 패턴](https://github.com/kswdev/design-pattern/tree/master/structural/adapter)
