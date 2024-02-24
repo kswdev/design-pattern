@@ -1,6 +1,6 @@
 # Adapter Pattern
 
-## 1. Adpter Pattern 이란?
+## 1. Adapter Pattern 이란?
 
 
 + 서로 다른 인터페이스를 중간에서 연결해주는 기능
