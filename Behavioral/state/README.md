@@ -60,15 +60,6 @@ public abstract class PlayerLevel {
 	public abstract void jump();
 	public abstract void turn();
 	public abstract void showLevelMessage();
-	
-	final public void go(int count)
-	{
-		run();
-		for(int i=0; i<count; i++){
-			jump();
-		}
-		turn();
-	}
 }
 ```
 
@@ -175,7 +166,23 @@ public class Player {
 	}
 	
 	public void play(int count){
-		level.go(count);
+		run();
+		for(int i=0; i<count; i++){
+			jump();
+		}
+		turn();
+	}
+
+	public void run() {
+	    level.run();
+	}
+	
+	public void turn() {
+	    level.turn();
+	}
+	
+	public void jump() {
+	    level.jump();
 	}
 }
 ```
