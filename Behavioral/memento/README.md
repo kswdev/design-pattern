@@ -13,6 +13,8 @@
 
 
 + 캡슐화가 파괴가 일어나지 않도록 주의해야 함
+
+
 ![image](https://github.com/kswdev/design-pattern/assets/92713670/5f7cc484-b270-44b0-ad94-be67a2307424)
 
 
