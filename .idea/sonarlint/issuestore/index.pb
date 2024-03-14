@@ -135,3 +135,21 @@ Z
 *src/main/java/behavioral/state/Player.java,b\e\be64c9c25ee8b8d3f5f063314d4c5d5009de2ad1
 M
 Behavioral/observer/README.md,b\a\bafa135b03a1340bc1ffd6e6ed6799c2a55ab464
+m
+=src/main/java/behavioral/observer/observer/DigitObserver.java,1\9\19b64aa249ba6d0fcee318d83b8d1ddb04d2e79a
+c
+3src/main/java/behavioral/observer/ObserverTest.java,d\4\d4c4672ee4388fc847d0e2ad9d2fe9525a6330a3
+v
+Fsrc/main/java/behavioral/observer/generator/RandomNumberGenerator.java,a\0\a000d15dbfb240151e60c41e5df0a57865b43d74
+p
+@src/main/java/behavioral/observer/generator/NumberGenerator.java,c\1\c1a8769c016d01dc5949a8980154f6de02112fa8
+X
+(src/main/java/behavioral/state/Main.java,5\8\588b8923ce6e13035f895e874b2f93be16df5ecc
+m
+=src/main/java/behavioral/observer/observer/GraphObserver.java,d\d\dd544e5cfc8fd1088bdb05d0d83e7caf39d4f083
+[
++src/main/java/behavioral/memento/Gamer.java,c\e\ce88a77fbd4f61d0712e107174fcb66cffde7c74
+Z
+*src/main/java/behavioral/memento/Main.java,2\4\2412be0dfaa6495979e4608e99e6e3070efe63ef
+]
+-src/main/java/behavioral/memento/Memento.java,b\3\b3a63c221505f1fa9cdf893c02a94913730b2ce5
