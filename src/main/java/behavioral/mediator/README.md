@@ -35,6 +35,9 @@
 # 3. Class diagram
 
 
+![image](https://github.com/kswdev/design-pattern/assets/92713670/09c06b37-a45b-4508-8e64-3b0658dd8b5d)
+
+
 ![image](https://github.com/kswdev/design-pattern/assets/92713670/0610a46c-6048-4222-b7ca-a48f99c69ab1)
 
 
