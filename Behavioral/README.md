@@ -11,3 +11,6 @@
 
 
 [5. 메멘토 패턴](https://github.com/kswdev/design-pattern/tree/master/Behavioral/memento)
+
+
+[6. 반복자 패턴](https://github.com/kswdev/design-pattern/tree/master/Behavioral/iterator)
