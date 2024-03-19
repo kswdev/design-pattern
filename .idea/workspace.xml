@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86e5f299-056e-4a11-83a8-fdfbae03c512" name="Changes" comment="중재자 패턴">
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/iterator/Constant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/iterator/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/iterator/book/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/iterator/collection/Aggregate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/iterator/collection/BookShelf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/iterator/factory/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/iterator/factory/IteratorFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/iterator/iterator/BookShelfIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/iterator/iterator/Iterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/iterator/iterator/ReverseIterator.java" afterDir="false" />
+    <list default="true" id="86e5f299-056e-4a11-83a8-fdfbae03c512" name="Changes" comment="반복자 패턴">
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/visitor/FileTreatmentException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/visitor/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/visitor/acceptor/Acceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/visitor/acceptor/entiry/Directory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/visitor/acceptor/entiry/Entry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/visitor/acceptor/entiry/File.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/visitor/visitor/ListVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/visitor/visitor/Visitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -195,7 +193,8 @@
       <workItem from="1710252483802" duration="4765000" />
       <workItem from="1710337382358" duration="164000" />
       <workItem from="1710422889605" duration="1365000" />
-      <workItem from="1710760232049" duration="2152000" />
+      <workItem from="1710760232049" duration="2335000" />
+      <workItem from="1710849948718" duration="1740000" />
     </task>
     <task id="LOCAL-00001" summary="초기화">
       <created>1708002302217</created>
@@ -281,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710428748712</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="반복자 패턴">
+      <created>1710762794801</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1710762794801</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,6 +317,7 @@
     <MESSAGE value="옵저버 패턴, 스테이트 패턴" />
     <MESSAGE value="메멘토 패턴" />
     <MESSAGE value="중재자 패턴" />
-    <option name="LAST_COMMIT_MESSAGE" value="중재자 패턴" />
+    <MESSAGE value="반복자 패턴" />
+    <option name="LAST_COMMIT_MESSAGE" value="반복자 패턴" />
   </component>
 </project>
