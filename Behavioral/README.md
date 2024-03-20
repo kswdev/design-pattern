@@ -17,3 +17,6 @@
 
 
 [7. 비지터 패턴](https://github.com/kswdev/design-pattern/tree/master/Behavioral/visitor)
+
+
+[8. 체인 책임 패턴](https://github.com/kswdev/design-pattern/tree/master/Behavioral/chainOfResponsiblity)
