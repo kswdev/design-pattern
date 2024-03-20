@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86e5f299-056e-4a11-83a8-fdfbae03c512" name="Changes" comment="방문자 패턴">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+    <list default="true" id="86e5f299-056e-4a11-83a8-fdfbae03c512" name="Changes" comment="책임 체인 패턴">
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/chain_of_responsiblity/LimitSupport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/chain_of_responsiblity/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/chain_of_responsiblity/NoSupport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/chain_of_responsiblity/OddSupport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/chain_of_responsiblity/SpecialSupport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/chain_of_responsiblity/Support.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/chain_of_responsiblity/Trouble.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,7 +192,7 @@
       <workItem from="1710422889605" duration="1365000" />
       <workItem from="1710760232049" duration="2335000" />
       <workItem from="1710849948718" duration="2226000" />
-      <workItem from="1710935120796" duration="451000" />
+      <workItem from="1710935120796" duration="1853000" />
     </task>
     <task id="LOCAL-00001" summary="초기화">
       <created>1708002302217</created>
@@ -287,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710851972711</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="책임 체인 패턴">
+      <created>1710935636567</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1710935636567</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,6 +331,7 @@
     <MESSAGE value="중재자 패턴" />
     <MESSAGE value="반복자 패턴" />
     <MESSAGE value="방문자 패턴" />
-    <option name="LAST_COMMIT_MESSAGE" value="방문자 패턴" />
+    <MESSAGE value="책임 체인 패턴" />
+    <option name="LAST_COMMIT_MESSAGE" value="책임 체인 패턴" />
   </component>
 </project>
