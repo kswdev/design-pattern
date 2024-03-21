@@ -11,3 +11,6 @@
 
 
 [5. 파사드 패턴](https://github.com/kswdev/design-pattern/tree/master/structural/facade)
+
+
+[6. 플라이웨이트 패턴](https://github.com/kswdev/design-pattern/tree/master/structural/flyweight)
