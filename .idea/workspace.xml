@@ -5,13 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86e5f299-056e-4a11-83a8-fdfbae03c512" name="Changes" comment="책임 체인 패턴">
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/chain_of_responsiblity/LimitSupport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/chain_of_responsiblity/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/chain_of_responsiblity/NoSupport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/chain_of_responsiblity/OddSupport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/chain_of_responsiblity/SpecialSupport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/chain_of_responsiblity/Support.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/chain_of_responsiblity/Trouble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/flyweight/BigChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/flyweight/BigCharFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/flyweight/BigString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/flyweight/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/flyweight/file/big.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/flyweight/file/big0.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/flyweight/file/big1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/flyweight/file/big2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/flyweight/file/big3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/flyweight/file/big4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,30 +66,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Dev/intellij/study/design-pattern/src/main/java/behavioral/state&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "C:/Dev/intellij/study/design-pattern/src/main/java/structural/flyweight/file",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Dev\intellij\study\design-pattern\src\main\java\structural\flyweight\file" />
+      <recent name="C:\Dev\intellij\study\design-pattern\src\main\java\structural\flyweight" />
       <recent name="C:\Dev\intellij\study\design-pattern\src\main\java\behavioral\state" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Dev\intellij\study\design-pattern\src\main\java\structural\flyweight\file" />
       <recent name="C:\Dev\intellij\study\design-pattern\src\main\java\creation\abstractFactory" />
       <recent name="C:\Dev\intellij\study\design-pattern\src" />
     </key>
@@ -95,7 +103,7 @@
       <recent name="structural.bridge.list" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.behavioral.mediator.Main">
+  <component name="RunManager" selected="Application.structural.flyweight.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="behavioral.state.Main" />
       <module name="design-pattern.main" />
@@ -148,12 +156,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="compositeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural.composite.compositeTest" />
+    <configuration name="structural.flyweight.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structural.flyweight.Main" />
       <module name="design-pattern.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="structural.composite.*" />
+          <option name="PATTERN" value="structural.flyweight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.structural.flyweight.Main" />
         <item itemvalue="Application.behavioral.mediator.Main" />
         <item itemvalue="Application.behavioral.memento.Main" />
         <item itemvalue="Application.ObserverTest" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.compositeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +200,8 @@
       <workItem from="1710422889605" duration="1365000" />
       <workItem from="1710760232049" duration="2335000" />
       <workItem from="1710849948718" duration="2226000" />
-      <workItem from="1710935120796" duration="1853000" />
+      <workItem from="1710935120796" duration="2968000" />
+      <workItem from="1711027506511" duration="2342000" />
     </task>
     <task id="LOCAL-00001" summary="초기화">
       <created>1708002302217</created>
@@ -299,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710935636567</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="책임 체인 패턴">
+      <created>1710939031778</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1710939031778</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

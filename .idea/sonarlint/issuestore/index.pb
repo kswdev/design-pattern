@@ -193,3 +193,15 @@ l
 <src/main/java/behavioral/visitor/FileTreatmentException.java,3\1\311b2c62c604962dd378653178a97a64ce33e13b
 e
 5src/main/java/behavioral/visitor/visitor/Visitor.java,e\e\ee99db939fbf6e9db56abce8c3dcf5e8c71c93bc
+Z
+*src/main/java/behavioral/visitor/Main.java,3\4\34d38e83c6bff0cf7f2832f0c55e4c4e944fd670
+Y
+)Behavioral/chainOfResponsiblity/README.md,2\8\28b457d46ed4ec1e99be2beec11bf737070ed3cd
+i
+9src/main/java/behavioral/visitor/visitor/ListVisitor.java,1\5\154ce8947318f1d4736b6dc22cce1bcd37200366
+o
+?src/main/java/behavioral/chain_of_responsiblity/OddSupport.java,7\7\776a9514c0d95cd05f22a086a0a288b82534255d
+s
+Csrc/main/java/behavioral/chain_of_responsiblity/SpecialSupport.java,9\7\970c6d9ca4d7bf8d7d867524d0ce37520f3f4575
+l
+<src/main/java/behavioral/chain_of_responsiblity/Trouble.java,e\2\e213ee467b5b28d8121974c3ecb3c2d826e74a1e
